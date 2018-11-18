@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/misestilos.css">
+	<script type="text/javascript" src="JavaScript/sound-mouseover.js"></script><!--Codigo de JavaScrip importante para el sonido del cursor-->
+	<script type="text/javascript" src="JavaScript/reloj.js"></script>
+	</head>
+	<body bgcolor="cyan" onload="mueveReloj()">
+
+		
+
+		<center><table class ="tabla" border="0">
+
+		<tr>
+			<td>
+				<h2><a href="Pag1.html" onmouseover="playclip();" target="Abajo">Objetivos</a>
+				</h2>
+			</td>
+			<td>
+				<h2><a href="Pag2.html" onmouseover="playclip();" target="Abajo">Misión y Visión</a>
+				</h2>
+			</td>
+			<td>
+				<h2><a href="PagAbajo.html"  onmouseover="playclip();" target="Abajo">Menú</a>
+				</h2>
+			</td>
+		</tr>
+
+		
+</table>
+
+	<audio><source src="Sonido/boton_1.mp3"></source><!--Sonido del cursor-->
+		<source src="Sonido/boton_1.ogg"></source><!--Sonido del cursor-->
+		</audio><!--Sonido del cursor-->
+		<div id="sounddiv"><bgsound id="sound"></div><!--Sonido del cursor-->
+
+</body>
+</html>
